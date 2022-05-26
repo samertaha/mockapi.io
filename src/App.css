@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.container {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.Card {
+  padding: 1rem 1rem;
+  margin: 1rem 0;
+  height: 200px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.Card h5 {
+  margin: 0;
+  flex: 1;
+}
+.Card img {
+  width: 160px;
+  height: 100%;
+  flex: 5;
+  object-fit: cover;
+  align-self: flex-end;
+}
+
+.newForm {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  width: 200px;
+  height: auto;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+button {
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  0% {
+    transform: rotate(0deg);
+  }
+}
