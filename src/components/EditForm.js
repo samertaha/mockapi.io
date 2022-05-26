@@ -4,7 +4,8 @@ class EditForm extends React.Component {
   state = {
     id: this.props.beeingEdited.id,
     name: '',
-    url: `https://picsum.photos/128/128?random=${Date.now()}`,
+    //url: `https://picsum.photos/128/128?random=${Date.now()}`,
+    url: 'https://i.pravatar.cc/128',
     isEditing: false,
   };
 
